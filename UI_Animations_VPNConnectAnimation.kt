@@ -1,4 +1,4 @@
-package com.kyrocore.sentrix.ui.animations
+package com.sentrix.ui.animations
 
 import androidx.compose.animation.core.*
 import androidx.compose.foundation.Canvas
