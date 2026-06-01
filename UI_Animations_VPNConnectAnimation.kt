@@ -183,7 +183,7 @@ fun VPNConnectAnimation(
                 center = center
             )
         }
-
+ 
         // CENTER LOCK ICON EFFECT
         Box(
             modifier = Modifier
