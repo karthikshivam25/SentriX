@@ -1,0 +1,186 @@
+ui/
+│
+├── theme/
+│   ├── Color.kt
+│   ├── Theme.kt
+│   ├── Type.kt
+│   ├── Shapes.kt
+│   ├── Dimens.kt
+│   ├── Effects.kt
+│   ├── Gradients.kt
+│   └── Typography.kt
+│
+├── components/
+│   ├── SecurityCard.kt
+│   ├── ThreatCard.kt
+│   ├── GlowButton.kt
+│   ├── SecurityScoreRing.kt
+│   ├── AnimatedStatCard.kt
+│   ├── PremiumTopBar.kt
+│   ├── CyberBottomNav.kt
+│   ├── ScanAnimationView.kt
+│   ├── GlassContainer.kt
+│   ├── StatusChip.kt
+│   ├── LiveProtectionBanner.kt
+│   ├── AnimatedGradientButton.kt
+│   ├── ThreatLevelBadge.kt
+│   ├── SectionHeader.kt
+│   ├── CyberSearchBar.kt
+│   ├── EmptyStateView.kt
+│   ├── PremiumDialog.kt
+│   ├── PulseIndicator.kt
+│   ├── CyberSwitch.kt
+│   ├── LoadingOverlay.kt
+│   ├── NotificationCard.kt
+│   ├── VPNStatusCard.kt
+│   ├── DeviceInfoCard.kt
+│   ├── AppRiskCard.kt
+│   └── QuickActionButton.kt
+│
+├── animations/
+│   ├── PulseAnimation.kt
+│   ├── ScanAnimation.kt
+│   ├── ThreatDetectedAnimation.kt
+│   ├── GlowAnimation.kt
+│   ├── RadarSweep.kt
+│   ├── CyberGridAnimation.kt
+│   ├── RingPulseAnimation.kt
+│   ├── MatrixFlowAnimation.kt
+│   ├── LoadingShimmer.kt
+│   ├── VPNConnectAnimation.kt
+│   └── ShieldProtectionAnimation.kt
+│
+├── navigation/
+│   ├── NavGraph.kt
+│   ├── Routes.kt
+│   ├── BottomNavItem.kt
+│   ├── NavigationAnimations.kt
+│   └── DeepLinks.kt
+│
+├── dashboard/
+│   ├── DashboardScreen.kt
+│   ├── DashboardHeader.kt
+│   ├── SecurityOverviewCard.kt
+│   ├── LiveThreatFeed.kt
+│   ├── QuickActionGrid.kt
+│   ├── DeviceHealthCard.kt
+│   ├── RealtimeProtectionCard.kt
+│   ├── ThreatSummaryCard.kt
+│   ├── RecentScanCard.kt
+│   ├── VPNQuickStatus.kt
+│   ├── AIProtectionCard.kt
+│   ├── DeviceStatsCard.kt
+│   └── SecurityTipsCarousel.kt
+│
+├── threats/
+│   ├── ThreatCenterScreen.kt
+│   ├── ThreatDetailsScreen.kt
+│   ├── ThreatTimeline.kt
+│   ├── ThreatHistoryCard.kt
+│   ├── MalwareDetectionCard.kt
+│   ├── ScamAlertCard.kt
+│   ├── URLThreatCard.kt
+│   ├── ThreatFilterBar.kt
+│   └── ThreatAnalytics.kt
+│
+├── vpn/
+│   ├── VPNScreen.kt
+│   ├── VPNConnectionCard.kt
+│   ├── VPNServerList.kt
+│   ├── VPNStatsCard.kt
+│   ├── VPNMapView.kt
+│   ├── VPNProtocolSelector.kt
+│   ├── VPNConnectionAnimation.kt
+│   └── VPNStatusIndicator.kt
+│
+├── ai/
+│   ├── AIShieldScreen.kt
+│   ├── AIChatAssistant.kt
+│   ├── AIThreatAnalysisCard.kt
+│   ├── AIRecommendationView.kt
+│   ├── AIScanAnimation.kt
+│   ├── AIMessageBubble.kt
+│   ├── AIInsightsCard.kt
+│   └── AILoadingState.kt
+│
+├── permissions/
+│   ├── PermissionsScreen.kt
+│   ├── PermissionRiskCard.kt
+│   ├── PermissionTimeline.kt
+│   ├── AppPermissionDetails.kt
+│   ├── DangerousPermissionAlert.kt
+│   ├── PrivacyAccessCard.kt
+│   └── PermissionAnalytics.kt
+│
+├── privacy/
+│   ├── PrivacyMonitorScreen.kt
+│   ├── CameraUsageCard.kt
+│   ├── MicrophoneUsageCard.kt
+│   ├── ClipboardMonitor.kt
+│   ├── BackgroundActivityCard.kt
+│   ├── TrackingDetectionCard.kt
+│   ├── PrivacyScoreCard.kt
+│   └── SensorUsageTimeline.kt
+│
+├── scanner/
+│   ├── ScannerScreen.kt
+│   ├── ScanProgressView.kt
+│   ├── ScanResultsView.kt
+│   ├── APKScannerCard.kt
+│   ├── FileScannerCard.kt
+│   ├── RealtimeScannerView.kt
+│   ├── ScannerAnimation.kt
+│   └── ScanSummaryCard.kt
+│
+├── analytics/
+│   ├── AnalyticsScreen.kt
+│   ├── ThreatGraph.kt
+│   ├── SecurityTrendChart.kt
+│   ├── RiskAnalyticsCard.kt
+│   ├── WeeklyProtectionStats.kt
+│   ├── DevicePerformanceChart.kt
+│   ├── ThreatHeatmap.kt
+│   └── SecurityInsightsPanel.kt
+│
+├── onboarding/
+│   ├── SplashScreen.kt
+│   ├── OnboardingScreen.kt
+│   ├── WelcomePage.kt
+│   ├── PermissionSetupPage.kt
+│   ├── SecurityIntroPage.kt
+│   ├── FeatureHighlightPage.kt
+│   ├── LoginScreen.kt
+│   ├── RegisterScreen.kt
+│   └── BiometricSetupScreen.kt
+│
+├── settings/
+│   ├── SettingsScreen.kt
+│   ├── AppearanceSettings.kt
+│   ├── NotificationSettings.kt
+│   ├── SecuritySettings.kt
+│   ├── PrivacySettings.kt
+│   ├── AboutScreen.kt
+│   ├── SubscriptionScreen.kt
+│   └── AccountSettings.kt
+│
+├── visualization/
+│   ├── ThreatGraph.kt
+│   ├── SecurityRing.kt
+│   ├── LiveProtectionWave.kt
+│   ├── PermissionRiskChart.kt
+│   ├── DeviceActivityTimeline.kt
+│   ├── RadarVisualization.kt
+│   ├── CyberBackground.kt
+│   ├── NetworkTrafficGraph.kt
+│   └── RealTimeThreatMap.kt
+│
+└── common/
+    ├── Constants.kt
+    ├── Extensions.kt
+    ├── UIUtils.kt
+    ├── PermissionUtils.kt
+    ├── DateUtils.kt
+    ├── AnimationUtils.kt
+    ├── DeviceUtils.kt
+    ├── CyberIcons.kt
+    └── AppState.kt
