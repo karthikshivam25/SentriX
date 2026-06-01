@@ -1,6 +1,0 @@
-{
-  "name": "Mobile Security Guard",
-  "description": "Comprehensive security, privacy, and VPN-assisted threat protection suite with AI analysis, device health checking, and battery monitoring.",
-  "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
-}
