@@ -9,7 +9,7 @@ import android.os.Build
 import android.provider.Settings
 import java.io.File
 
-object DeviceUtils {
+object DeviceUtils { 
 
     // ----------------------------------------------------------------
     // DEVICE INFORMATION
