@@ -1,9 +1,9 @@
-package com.cyberdefender.domain.services
+package com.sentrix.domain.services
 
-import com.cyberdefender.domain.models.ScanResult
-import com.cyberdefender.domain.models.ThreatIndicator
-import com.cyberdefender.domain.models.SecurityAlert
-import com.cyberdefender.domain.models.SecurityMetrics
+import com.sentrix.domain.models.ScanResult
+import com.sentrix.domain.models.ThreatIndicator
+import com.sentrix.domain.models.SecurityAlert
+import com.sentrix.domain.models.SecurityMetrics
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 
