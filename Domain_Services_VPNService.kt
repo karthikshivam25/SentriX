@@ -1,4 +1,4 @@
-package com.cyberdefender.domain.services
+package com.sentrix.domain.services
 
 import com.cyberdefender.domain.models.VPNConnection
 import com.cyberdefender.domain.models.ThreatIndicator
