@@ -1,7 +1,7 @@
-package com.cyberdefender.domain.services
+package com.sentrix.domain.services
 
-import com.cyberdefender.domain.models.DeviceIntegrity
-import com.cyberdefender.domain.models.ThreatIndicator
+import com.sentrix.domain.models.DeviceIntegrity
+import com.sentrix.domain.models.ThreatIndicator
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 
